@@ -1,1 +1,1 @@
-web: gunicorn apptechcar.wsgi --logfile -
+web: gunicorn apptechcar.wsgi --log-file -
