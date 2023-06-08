@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TechCar</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <div id="cabecalho">
+		<div id="area-logo">
+			<img src="{% static 'images/logo.webp' %}" class="img">
+
+		</div>
+
+	</div>
+
+	<div id="area-principal">
+		<ul>
+            <a ><img src="{% static 'images/download.webp' %}" class="img"></a><p>
+			<a href="https://play.google.com/store/apps/details?id=br.com.devbase.techcar"><img src="{% static 'images/android.webp' %}" class="img"></a><p>
+			<a href="https://apps.apple.com/br/app/techcar/id6449228236"><img src="{% static 'images/ios.webp' %}" class="img"></a><p>
+			<a href="https://play.google.com/store/apps/details?id=br.com.devbase.techcar.prestador"><img src="{% static 'images/motorista.webp' %}" class="img"></a>
+		</ul>
+
+		<div>
+			<img src="{% static 'images/loc.webp' %}" class="img">
+		</div>
+
+		<div id="rodape">
+			<div>
+				<h1><strong>SIGA NOSSAS REDES SOCIAIS</strong></h1>
+			</div>
+			<div>
+				<ul>
+					<a href="https://instagram.com/apptechcar?igshid=ZGUzMzM3NWJiOQ=="><img src="{% static 'images/insta.webp' %}" class="rodape"></a>
+					<a href="https://www.facebook.com/profile.php?id=100092457908063&mibextid=ZbWKwL"><img src="{% static 'images/face.webp' %}" class="rodape"></a>
+				</ul>
+			</div>
+
+
+		</div>
+
+
+
+	</div>
+
+</body>
+</html>
